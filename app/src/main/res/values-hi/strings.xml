@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SugarCane Pro</string>
+    <string name="title_home">होम</string>
+    <string name="title_scan">स्कैन</string>
+    <string name="title_profile">प्रोफ़ाइल</string>
+    <string name="title_farm">खेत</string>
+    <string name="title_analysis">विश्लेषण</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="action_login">लॉगिन</string>
+    <string name="action_register">साइन अप</string>
+    <string name="welcome_title">SugarCane Pro</string>
+    <string name="welcome_subtitle">अपनी गन्ना खेती की निगरानी, ​​विश्लेषण और अनुकूलन करें</string>
+    <string name="enter_name">अपना पूरा नाम दर्ज करें</string>
+    <string name="enter_mobile">अपना मोबाइल नंबर दर्ज करें</string>
+    <string name="enter_password">अपना पासवर्ड दर्ज करें</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="already_account">पहले से खाता है? लॉगिन करें</string>
+    <string name="no_account">खाता नहीं है? रजिस्टर करें</string>
+    <string name="scan_title">गन्ना रोग का पता लगाएं</string>
+    <string name="capture_image">तस्वीर ले</string>
+    <string name="analyze">विश्लेषण करें</string>
+    <string name="result">परिणाम: </string>
+    <string name="confidence">विश्वास: </string>
+    <string name="weather_title">मौसम</string>
+    <string name="expert_tips">विशेषज्ञ सुझाव</string>
+    <string name="plot_management">खेत प्रबंधन</string>
+</resources>

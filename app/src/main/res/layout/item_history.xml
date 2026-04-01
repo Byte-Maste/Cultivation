@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical">
+
+        <!-- Placeholder for Image -->
+        <ImageView
+            android:id="@+id/ivThumb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:scaleType="centerCrop"
+            app:tint="#BDC3C7"
+            android:background="#ECF0F1"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tvDiseaseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disease Name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2C3E50"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: 2024-05-20"
+                android:textSize="12sp"
+                android:textColor="#7F8C8D"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/tvConfidenceScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confidence: 95%"
+                android:textSize="12sp"
+                android:textColor="#27AE60"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

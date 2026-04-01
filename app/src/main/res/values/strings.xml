@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SugarCane Pro</string>
+    <string name="title_home">Home</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_farm">Farm</string>
+    <string name="title_analysis">Analysis</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="action_login">Login</string>
+    <string name="action_register">Sign Up</string>
+    <string name="welcome_title">SugarCane Pro</string>
+    <string name="welcome_subtitle">Monitor, analyze, and optimize your sugarcane farming</string>
+    <string name="enter_name">Enter your full name</string>
+    <string name="enter_mobile">Enter your mobile number</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="already_account">Already have an account? Login</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="scan_title">Detect Sugarcane Disease</string>
+    <string name="capture_image">Take Picture</string>
+    <string name="analyze">Analyze</string>
+    <string name="result">Result: </string>
+    <string name="confidence">Confidence: </string>
+    <string name="weather_title">Weather</string>
+    <string name="expert_tips">Expert Tips</string>
+    <string name="plot_management">Farm Management</string>
+</resources>

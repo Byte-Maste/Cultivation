@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="roles">
+        <item>Farmer</item>
+        <item>Miller</item>
+    </string-array>
+</resources>

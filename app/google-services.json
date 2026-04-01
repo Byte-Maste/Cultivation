@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "529279734416",
+    "project_id": "cultivation-293a3",
+    "storage_bucket": "cultivation-293a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529279734416:android:2195b5759edfdee4927e15",
+        "android_client_info": {
+          "package_name": "com.example.cultivation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmxJRoex8AHJP7WX0c1InY08zeV7seLp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

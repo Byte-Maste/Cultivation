@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivUrgent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_dialog_alert"
+            app:tint="#E74C3C"/> <!-- Default Red for Urgent -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply Fertilizer"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2C3E50"/>
+
+            <TextView
+                android:id="@+id/tvDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urea dose for Co 0238"
+                android:textSize="14sp"
+                android:textColor="#7F8C8D"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/tvPlotName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plot # Alpha"
+                android:textSize="12sp"
+                android:textColor="#3498DB"
+                android:layout_marginTop="8dp"
+                android:background="#EBF5FB"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="2dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:textColor="#E74C3C"
+            android:textStyle="bold"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

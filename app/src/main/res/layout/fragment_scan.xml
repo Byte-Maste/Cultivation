@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/btnCapture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bg_button_circle"
+        android:elevation="8dp"
+        android:src="@drawable/ic_camera_white"
+        android:contentDescription="@string/capture_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Result Overlay -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvResultTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDisease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Healthy"
+                android:textColor="@color/brand_green"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSeverity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Severity: Low"
+                android:textColor="@color/gray_text"
+                android:textSize="14sp" />
+
+             <TextView
+                android:id="@+id/tvMaturity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Maturity: Early Stage"
+                android:textColor="@color/gray_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvRecommendation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Recommendation: ..."
+                android:textColor="@color/dark_text"
+                android:textStyle="italic"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvConfidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Confidence: 98%"
+                android:textColor="@color/gray_text"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/layoutHealthyAnalysis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="12dp">
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Healthy Leaf Analysis"
+                    android:textStyle="bold"
+                    android:textColor="#2ECC71"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1">
+                    <TableRow>
+                        <TextView android:text="Red (R)" android:padding="4dp"/>
+                        <TextView android:id="@+id/tvR" android:text="0" android:padding="4dp" android:textStyle="bold"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="Green (G)" android:padding="4dp"/>
+                        <TextView android:id="@+id/tvG" android:text="0" android:padding="4dp" android:textStyle="bold"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView android:text="Blue (B)" android:padding="4dp"/>
+                        <TextView android:id="@+id/tvB" android:text="0" android:padding="4dp" android:textStyle="bold"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCloseResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="16dp"
+                android:text="Close"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

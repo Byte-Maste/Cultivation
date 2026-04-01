@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // light green
+    // dark green
+    // secondary green
+    //white
+    // white gray bg
+    // dark blue
+    // light grey
+    // white light grey
+    // light white
+    // green
+    //red
+    // yellow
+    // sky blue
+    <color name="white">#ffffff</color> // white
+    <color name="black">#000000</color>
+    // dark black
+    // very light green
+    <color name="activeTagText">#059669</color> // dark green
+
+
+
+    <color name="brand_green">#2ECC71</color> <color name="dark_text">#1C2833</color>
+    <color name="gray_text">#7F8C8D</color>
+
+</resources>
