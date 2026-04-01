@@ -104,3 +104,7 @@ Krishna Choudhary
 
 https://github.com/Byte-Maste/Cultivation
 
+## Shipped APK (Free Download)
+
+https://github.com/Byte-Maste/Cultivation/releases/tag/app-demo-v1.0.0
+
