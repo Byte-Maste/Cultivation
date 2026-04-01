@@ -94,6 +94,7 @@ On Windows PowerShell:
 - Demonstrates modern Android engineering beyond simple CRUD apps.
 - Blends cloud, local, analytics, and device-native capabilities.
 - Shows ability to build scalable mobile systems with clean design.
+- Recognized at Smart India Hackathon for innovation and practical impact.
 
 ## Author
 
